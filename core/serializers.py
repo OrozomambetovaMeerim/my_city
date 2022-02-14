@@ -12,3 +12,4 @@ class ProposalCreateSerializer(serializers.ModelSerializer):
     class Meta:
         model = Proposal
         fields = ['title', 'description']
+        fields = ['id', 'title']
